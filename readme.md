@@ -7,7 +7,7 @@ A really simple and elegant looking birthday counter
 #### installation
 
 ```sh
-git clone https://github.com/pavanjadhaw/birthday-counter
+git clone https://github.com/akanksha-raghav/Birthday_wishes/
 ```
 
 &nbsp;
