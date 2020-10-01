@@ -33,7 +33,7 @@ You can deploy it to many free hosting sites
 Deploying to [now.sh](https://zeit.co/home)
 
 ```sh
-$ cd birthday-counter
+$ cd birthday_wishes
 $ now
 ```
 
@@ -42,7 +42,7 @@ $ now
 Deploying to [surge.sh](https://surge.sh/)
 
 ```sh
-$ cd birthday-counter
+$ cd birthday_wishes
 $ surge
 ```
 
