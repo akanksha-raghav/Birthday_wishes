@@ -493,7 +493,8 @@ x = setInterval(function() {
     }
 
     function startSong() {
-      const audio = new Audio('../files/Happy-Birthday-Instrumental.mp3')
+      const audio = new Audio('../files/Happy-Birthday-Instrumental.mp3');
+      audio.loop=true;
       audio.play();
     }
 
