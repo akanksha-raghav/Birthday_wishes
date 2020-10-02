@@ -463,6 +463,7 @@ x = setInterval(function() {
 
     function init() {
       box.addEventListener('click', openBox, false);
+      box.addEventListener('click', startSong, false);
       box.addEventListener('click', showfireworks, false);
     }
 
@@ -489,6 +490,11 @@ x = setInterval(function() {
     function showfireworks() {
       canvasC.style.display = 'initial';
       setTimeout(anim, 1500);
+    }
+
+    function startSong() {
+      const audio = new Audio('../files/Happy-Birthday-Instrumental.mp3')
+      audio.play();
     }
 
     init();
